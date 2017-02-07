@@ -23,13 +23,5 @@ module.exports = function(model) {
                 next();
             }
 
-        })
-        .after('post', function(req, res, next) {
-            if (res.locals.bundle.code === 11000) {
-                var temp = res.locals.bundle.toJSON();
-                temp.err = 'Duplicate data';
-                res.locals.bundle = temp;
-            }
-            next();
-        });;
+        });
 };
