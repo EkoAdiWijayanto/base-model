@@ -1,0 +1,19 @@
+{
+  "name": "base-model",
+  "version": "1.0.0",
+  "description": "xawapi base model",
+  "main": "base-model.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EkoAdiWijayanto/base-model.git"
+  },
+  "author": "Eko Adi Wijayanto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EkoAdiWijayanto/base-model/issues"
+  },
+  "homepage": "https://github.com/EkoAdiWijayanto/base-model#readme"
+}
